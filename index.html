@@ -1,73 +1,53 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+<!DOCTYPE html>
+
+<html>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>LinkFree | Guilherme Soares Cota</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="icon" href="assets/imagens/favicon.png" type="image/x-icon" />
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Amanah Medika</title>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-        <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-    
-    <!-- Full Page Image Header with Vertically Centered Content -->
-    <header class="masthead">
-        <div class="container h-100">
-        <div class="row h-100 align-items-center">
-            <div class="col-12 text-center">
-            <h1 class="fw-light">Vertically Centered Masthead Content</h1>
-            <p class="lead">A great starter layout for a landing page</p>
-            </div>
-        </div>
-        </div>
-    </header>
-    
-    <!-- Page Content -->
-    <section class="py-5">
-        <div class="container">
-        <h2 class="fw-light">Page Content</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis
-            blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat
-            reprehenderit expedita.</p>
-        </div>
-    </section>
+<body>
+    <i onclick="mostrar(this)" class="fa fa-moon-o fa-2x night_mode"></i>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <img id="userPhoto" src="assets/imagens/perfil.jpg" alt="User Photo">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <spam id="userName">Amanah Medika</spam>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
+    <div id="links">
+        <a class="link" href="https://guilhermesoares.tech" target="_blank" style="border-radius: 25px;"><i
+                class="fa fa-globe" aria-hidden="true"></i> Antri</a>
+        <a class="link" href="https://github.com/guiscota" target="_blank" style="border-radius: 25px;"><i
+                class="fa fa-github"></i> Data Antrian</a>
+        <a class="link" href="https://looptech.com.br" target="_blank" style="border-radius: 25px;"><i
+                class="fa fa-globe" aria-hidden="true"></i> Loop Tech</a>
+    </div>
+
+    <div class="footer">
+        <a href="https://www.instagram.com/guiscota" target="_blank">
+            <i style="line-height: 38px;" class="fa fa-instagram circulo" aria-hidden="true"></i>
+        </a>
+        <!--
+        <a href="https://www.facebook.com/guisoarescota" target="_blank">
+            <i style="line-height: 38px;" class="fa fa-facebook-f circulo" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/guiscota" target="_blank">
+            <i style="line-height: 38px;" class="fa fa-linkedin circulo" aria-hidden="true"></i>
+        </a>
+        -->
+        <a href="https://api.whatsapp.com/send?text=Ol%C3%A1%20Guilherme!%20Eu%20vi%20o%20seu%20site,%20e%20gostaria%20de%20conversar.&phone=5537999096306" target="_blank">
+            <i style="line-height: 38px;" class="fa fa-whatsapp circulo" aria-hidden="true"></i>
+        </a>
+    </div>
+
+    <!-- Javascript -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="index.js"></script>
+</body>
+
 </html>
