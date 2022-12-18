@@ -7,9 +7,11 @@
     <title>Registrasi</title>
 </head>
 <body>
+    <script type="text/javascript">var submitted=false</script>
+    <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='thx.html'}"></iframe>
     <form 
         action="https://script.google.com/macros/s/AKfycbwZtsM1BTuiFNib4wA5tWkvzEA_Zq6xOGPvTylk6Rcw4I6ew6VSm061pNf88mgDJRRDIA/exec" 
-        method="post">
+        method="post" target="hiddenConfirm" onsubmit="submitted=true">
         <div>
             <input type="text" name="Nama" placeholder="Nama" required>
         </div>
