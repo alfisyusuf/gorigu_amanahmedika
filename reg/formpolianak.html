@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Pasien Poli Anak</title>
+    <link rel="stylesheet" href="templatereg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <script type="text/javascript">var submitted=false</script>
+        <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='thx.html'}"></iframe>
+        <form action="https://script.google.com/macros/s/AKfycby_vk6j3FHY1e0PaMHTe0TX2i-aZzhV51WgrB7NmyX6wKWUYB69C6e7QbubbdOnTkDG/exec" 
+        method="post" target="hiddenConfirm" onsubmit="submitted=true">
+        <div class="row">
+            <h3>Registrasi Pasien Poli Anak</h3>
+            <div class="input-group input-group-icon">
+            <input type="text" placeholder="Nama Lengkap" name="Nama" required/>
+            <div class="input-icon"><i class="fa fa-user"></i></div>
+            </div>
+            <div class="input-group">
+            <input type="number" placeholder="Nomor Induk Kependudukan" name="NIK" required/>
+            </div>
+            <div class="input-group">
+            <input type="number" placeholder="Nomor BPJS" name="Nomor BPJS"/>
+            </div>
+            <div class="input-group">
+            <input type="number" placeholder="Nomor Rekam Medis" name="Nomor Rekam Medis"/>
+            </div>
+            <div class="input-group">
+            <input type="text" placeholder="Tempat Lahir" name="Tempat Lahir" required/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-half">
+            <h4>Tanggal Lahir</h4>
+            <div class="input-group">
+                <div class="col-third">
+                <input type="number" placeholder="Hari" min="1" max="31" name="Hari" required/>
+                </div>
+                <div class="col-third">
+                <input type="number" placeholder="Bulan" min="1" max="12" name="Bulan" required/>
+                </div>
+                <div class="col-third">
+                <input type="number" placeholder="Tahun" min="1900" max="2050" name="Tahun" required/>
+                </div>
+            </div>
+            </div>
+            <div class="col-half">
+            <h4>Jenis Kelamin</h4>
+            <div class="input-group">
+                <input id="gender-male" type="radio" value="Laki-laki" name="Jenis Kelamin" required/>
+                <label for="gender-male">Laki-laki</label>
+                <input id="gender-female" type="radio" value="Perempuan" name="Jenis Kelamin"/>
+                <label for="gender-female">Perempuan</label>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-group">
+            <textarea name="Alamat" placeholder="Alamat" cols="30" rows="10" required></textarea>
+            </div>
+            <div class="input-group">
+            <input type="text" placeholder="Whatsapp" name="Whatsapp" required/>
+            </div>
+        </div>
+        <div class="row">            
+            <div class="input-group">
+            <input id="terms" type="checkbox" name="Pernyataan" required/>
+            <label for="terms">Saya menyatakan bahwa data di atas adalah benar.</label>
+            </div>
+        </div>
+        <div class="row">
+            <button type="submit">Kirim</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
