@@ -1,0 +1,47 @@
+.container {
+    max-width: 72em;
+    padding: 1em 3em 2em 3em;
+    margin: 0em auto;
+    background-color: #fff;
+    border-radius: 4.2px;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    padding: 1em;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #b9b9b9;
+    background-color: #e3e3e3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    width: 33.33%;
+    padding: 15px 15px 15px 15px;
+}
+
+th {
+    background-color: #303030;
+    color: #dddddd;
+    border: 1px solid #dddddd;
+    font-size: 30px;
+}
+
+td {
+    background-color: #b9b9b9;
+    font-size: 120px;
+    color: #303030;
+    border: 1px solid #303030;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #303030;
+}
