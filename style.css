@@ -64,3 +64,18 @@ h3 {
         width: 70%;
     }
 }
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #272727;
+}
+
+th, td {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
