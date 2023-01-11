@@ -252,3 +252,45 @@ button:hover {
 h1 , p {
   color: #5a5e5a;
 }
+
+.row a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.green {
+  background-color: green;
+  width: fit-content;
+  color: #ffffff;
+  padding: 5px 7px 5px 7px;
+  border-radius: 3px;
+}
+
+.red {
+  background-color: #c0392b;
+  width: fit-content;
+  color: #ffffff;
+  padding: 5px 7px 5px 7px;
+  border-radius: 3px;
+}
+
+.violet {
+  background-color: #8e44ad;
+  width: fit-content;
+  color: #ffffff;
+  padding: 5px 7px 5px 7px;
+  border-radius: 3px;
+}
+
+.orange {
+  background-color: #f39c12;
+  width: fit-content;
+  color: #ffffff;
+  padding: 5px 7px 5px 7px;
+  border-radius: 3px;
+}
+
+.marbot {
+  margin-bottom: 0px;
+}
+
