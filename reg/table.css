@@ -32,7 +32,7 @@ th {
 
 th:nth-child(1) {
     border-right: 1px solid #ffffff;
-    border-top-left-radius: 10px solid #10A79D;
+    border-top-left-radius: 10px;
 }
 
 th:nth-child(2) {
@@ -40,7 +40,7 @@ th:nth-child(2) {
 }
 
 th:nth-child(3) {
-    border-top-right-radius: 10px solid #10A79D;
+    border-top-right-radius: 10px;
 }
 
 td {
