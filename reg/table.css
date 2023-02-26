@@ -30,6 +30,10 @@ th {
     font-size: 30px;
 }
 
+th:nth-child(1) {
+    border-right: #ffffff;
+}
+
 td {
     background-color: #ffffff;
     font-size: 120px;
