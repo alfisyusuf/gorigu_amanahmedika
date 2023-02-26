@@ -28,12 +28,12 @@ th {
     background-color: #10A79D;
     color: #ffffff;
     border: 1px solid #303030;
-    border-radius: 20px;
     font-size: 30px;
 }
 
 th:nth-child(1) {
     border-right: 1px solid #ffffff;
+    border-top-left-radius: 10px;
 }
 
 th:nth-child(2) {
