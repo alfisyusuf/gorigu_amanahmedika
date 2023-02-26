@@ -1,5 +1,5 @@
 .container {
-    max-width: 72em;
+    max-width: 90%;
     padding: 1em 3em 2em 3em;
     margin: 0em auto;
     background-color: #ffffff;
@@ -25,13 +25,13 @@ th, td {
 
 th {
     background-color: #303030;
-    color: #dddddd;
+    color: #ffffff;
     border: 1px solid #dddddd;
     font-size: 30px;
 }
 
 td {
-    background-color: #b9b9b9;
+    background-color: #ffffff;
     font-size: 120px;
     color: #303030;
     border: 1px solid #303030;
