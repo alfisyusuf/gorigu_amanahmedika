@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Antrian</title>
+    <link rel="stylesheet" href="https://amanahmedika.pages.dev/reg/table.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <h3>Klinik Amanah Medika</h3>
+      <table>
+        <?var tableData = getSheetData();?>
+        <?for(var i = 0; i < tableData.length; i++) { ?>
+          <?if(i == 0) { ?>
+            <tr>
+            <?for(var j = 0; j < tableData[i].length; j++) { ?>
+            <th><?= tableData[i][j] ?></th>
+            <? } ?>
+            </tr>
+          <? } else { ?>
+            <tr>
+            <?for(var j = 0; j < tableData[i].length; j++) { ?>
+            <td><?= tableData[i][j] ?></td>
+            <? } ?>
+            </tr>
+          <? } ?>
+        <? } ?>
+      </table>
+    </div>
+    
+  </body>
+</html>
