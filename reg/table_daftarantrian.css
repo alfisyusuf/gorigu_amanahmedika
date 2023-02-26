@@ -16,6 +16,7 @@ body {
 
 table {
     border-collapse: collapse;
+    align-items: center;
 }
 
 th, td {
