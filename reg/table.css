@@ -31,7 +31,7 @@ th {
 }
 
 th:nth-child(1) {
-    border-right: #ffffff;
+    border-right: 1px solid #ffffff;
 }
 
 td {
